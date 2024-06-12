@@ -1,6 +1,6 @@
 {
   "short_name": "PWA App",
-  "name": "PWA App Sample",
+  "name": "PWA App",
   "icons": [
     {
       "src": "favicon.png",
@@ -11,7 +11,7 @@
       "src": "maskable_icon_x192.png",
       "type": "image/png",
       "sizes": "192x192",
-      "purpose":"any maskable"
+      "purpose": "any maskable"
     },
     {
       "src": "maskable_icon_x192.png",
@@ -22,5 +22,21 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "id": "pwa",
+  "description": "This PWA App only for testing purpose.",
+  "lang": "en",
+  "orientation": "any",
+  "categories": [
+    "games",
+    "kids"
+  ],
+  "share_target": {
+    "method": "GET",
+    "action": "/share-action/",
+    "params": {
+      "title": "PWA App",
+      "text": "PWA App"
+    }
+  }
 }
