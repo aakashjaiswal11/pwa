@@ -1,42 +1,62 @@
 {
-  "short_name": "PWA App",
-  "name": "PWA App",
+  "short_name": "Pikachu",
+  "name": "Pikachu",
   "icons": [
     {
-      "src": "favicon.png",
+      "src": "favicon.jpg",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "maskable_icon_x192.png",
+      "src": "favicon.jpg",
       "type": "image/png",
-      "sizes": "192x192",
-      "purpose": "any maskable"
+      "sizes": "192x192"
     },
     {
-      "src": "maskable_icon_x192.png",
+      "src": "favicon.jpg",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff",
-  "id": "pwa",
-  "description": "This PWA App only for testing purpose.",
+  "theme_color": "#0b0000",
+  "background_color": "#fffbfb",
+  "id": "Pikachu",
+  "description": "This Pikachu PWA App only for testing purpose. Here we show All Pokémon Images and Name.",
   "lang": "en",
   "orientation": "any",
   "categories": [
     "games",
-    "kids"
+    "kids",
+    "photo"
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "screenshot2.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "purpose": "any"
+    }
   ],
   "share_target": {
     "method": "GET",
     "action": "/share-action/",
     "params": {
-      "title": "PWA App",
-      "text": "PWA App"
+      "title": "Pikachu",
+      "text": "Pikachu",
+      "url": "/"
     }
-  }
+  },
+  "dir": "auto",
+  "display_override": [
+    "standalone",
+    "window-controls-overlay"
+  ]
 }
